@@ -1,0 +1,11 @@
+# carla-pack manifest for a test of PUBLIC packs stored on the Hugging Face Hub:
+# a roadgen motorway map built as a CARLA UE5.8 content pack, on a branch of
+# AutowareFoundation/carla-ue5-maps.
+schema = 1
+
+[storage]
+type = "huggingface"
+repo = "AutowareFoundation/carla-ue5-maps"
+repo_type = "dataset"
+revision = "content-pack/roadgen-highway"
+prefix = "packs/"
