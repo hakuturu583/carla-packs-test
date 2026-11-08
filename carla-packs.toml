@@ -20,3 +20,15 @@ sha256 = "c0b5fff90af5dd0de2964c33730a6696bbd990010e840ba603ff3303eb683e85"
 size = 299116865
 maps = ["RoadgenHighway"]
 description = "roadgen motorway: bridges, tunnel, diamond interchange; Autoware, SUMO, CommonRoad maps inside"
+yanked = true  # the tunnel is closed by the land in CARLA; fixed in 1.0.1
+
+[[pack]]
+name = "RoadgenHighwayPack"
+version = "1.0.1"
+base_release = "carla-1.0-Linux"
+platform = "Linux"
+key = "RoadgenHighwayPack-1.0.1-carla-1.0-Linux.tar.gz"
+sha256 = "769535b771619056b1dd282b8a229400eb456255ae5f1e4aac40790ab5e493c8"
+size = 299395466
+maps = ["RoadgenHighway"]
+description = "roadgen motorway: bridges, open tunnel, diamond interchange; Autoware, SUMO, CommonRoad maps inside (roadgen tunnel fix #167)"
