@@ -66,3 +66,17 @@ sha256 = "59e73991d6d0da68fb22dd24cae90ee65319aa292330fee6ab5db355c174166a"
 size = 310438806
 maps = ["RoadgenHighway"]
 description = "roadgen motorway: bridges over a river, lit tunnel, diamond interchange; Autoware, SUMO, CommonRoad maps inside (roadgen #167-#171)"
+
+[[pack]]
+name = "RoadgenHighwayPack"
+version = "1.0.5"
+base_release = "carla-1.0-Linux"
+platform = "Linux"
+key = "RoadgenHighwayPack-1.0.5-carla-1.0-Linux.tar.gz"
+sha256 = "5d8092d1a92dae8866b9a80f0dd2bee965df896dbc6b6e8bcdd24f72a07917dd"
+size = 141216753
+maps = ["RoadgenHighway"]
+description = "roadgen motorway with every HD map format inside: Autoware (Lanelet2, point cloud, projector), SUMO, CommonRoad, ClipGT, RDS-HQ, GPUDrive, WOMD (roadgen_asset.json)"
+
+[pack.formats]
+RoadgenHighway = ["autoware", "clipgt", "commonroad", "commonroad_map", "gpudrive", "lanelet2", "map_logic", "navmesh", "opendrive", "osm", "pointcloud", "rdshq", "roadgen_ir", "roadgen_proto", "sumo", "traffic_manager", "womd"]
