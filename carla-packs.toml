@@ -55,3 +55,14 @@ sha256 = "d853b7d19beb643096cedc9b3809f07253d8216853020e688f3bacafd059aeed"
 size = 300263637
 maps = ["RoadgenHighway"]
 description = "roadgen motorway: bridges over a river, open tunnel, diamond interchange; Autoware, SUMO, CommonRoad maps inside (roadgen #167-#169)"
+
+[[pack]]
+name = "RoadgenHighwayPack"
+version = "1.0.4"
+base_release = "carla-1.0-Linux"
+platform = "Linux"
+key = "RoadgenHighwayPack-1.0.4-carla-1.0-Linux.tar.gz"
+sha256 = "59e73991d6d0da68fb22dd24cae90ee65319aa292330fee6ab5db355c174166a"
+size = 310438806
+maps = ["RoadgenHighway"]
+description = "roadgen motorway: bridges over a river, lit tunnel, diamond interchange; Autoware, SUMO, CommonRoad maps inside (roadgen #167-#171)"
